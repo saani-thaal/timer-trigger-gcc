@@ -1,0 +1,41 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+
+#installing python inbuild modules or libraries throws error while pip install -r requirements.txt in Azure functions
+#however a particular version can be installed/mentioned
+pip==21.0.1
+
+
+
+
+#for azure
+azure-functions
+
+#for time & date (datetime and time are python inbuilt)
+
+
+#for aliceblue 
+alice_blue
+protlib
+websocket_client
+requests
+bs4
+
+#for file Read&Write (json and pickle are python inbuilt)
+fastparquet
+
+
+#for file accessing ( os, sys, pathlib are python inbuilt)
+
+
+#for data processing
+numpy
+pandas
+
+#for Google Drive API
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
+
